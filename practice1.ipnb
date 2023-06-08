@@ -1,0 +1,146 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Mar 14 20:33:59 2023
+
+@author: onkar
+"""
+'''
+n1=float(input('enter a number: '))
+n2=float(input('enter a number: '))
+n3=float(input('enter a number: '))
+if n1>n2 and n1>n3:
+    print('n1 is greater',n1)
+elif n2>n3 and n2>n1:
+    print('n2 is greater',n2)
+else:
+    print('n3 is greater',n3)
+    
+    
+
+n1=float(input('enter 1st no: '))
+n2=float(input('enter 2nd no: '))
+n3=float(input('enter 3rd no: '))
+
+if n1<n2 and n1<n3:
+    print('n1 is small',n1)
+elif n2<n3:
+    print('n2 is small',n2)
+else:
+    print('n3 is small',n3)
+
+
+a=float(input('enter a number: '))
+
+if a%2==0:
+    print('even')
+else:
+    print('odd')
+
+n = int(input('enter a number: '))
+
+if n>=1 and n<=100:
+    print('ok')
+else:
+    print('wrong')
+
+a = int(input('enter a number between 0 to 5'))
+
+if a==0:
+    print('zero')
+elif a==1:
+    print('one')
+elif a==2:
+    print('two')
+elif a==3:
+    print('three')
+elif a==4:
+    print('four')
+elif a==5:
+    print('five')
+else:
+    print('wrong input')
+
+a = int(input('enter a no:'))
+        
+for i in range(1,11):
+    print(i*a)
+
+s = input('enter a string: ')
+i = 0
+for x in s:
+    print(x,'has index',i)
+    i = i +1
+
+e = input('enter a string: ')
+for i in e:
+    print(10*e)
+
+for i in range(21):
+    if i%2!=0:
+        print(i)
+for i in range(21):
+    if i%2==0:
+        print(i)
+
+for i in range(21,-8888888888888,-1):
+    print(i)
+    
+listt = eval(input('enter a list: '))
+summ = 0
+for i in listt:
+    summ = summ+i
+print(summ)
+
+import calender
+year =2000
+month = 8
+
+x = calender.month(year,month)
+print(x)
+
+x = 1
+while x<=10:
+    print(x)
+x = x + 1
+
+n = int(input('enter number: '))
+summ = 0
+i = 1
+while i<=n:
+    summ = summ+1
+    i = i + 1
+print('The sum of first',n,'numbers is',summ)
+a=10
+b=10
+id(a)
+
+s = 'durga\t\software'
+
+print(s)
+
+import math as m
+print(m.sqrt(16))
+print(m.pi)
+from math import sqrt,pi
+print NameError:name(math.pi)'math' is not defined
+
+a = int(input('enter a number :'))
+b = int(input('enter a number :'))
+
+print(a+b)
+
+print('The sum :',int(input('enter 1 :'))+int(input('enter 2 :')))
+
+a,b = [int(x) for x in input('enter 2 nos.: ').split(',')]
+print('product is: ',a*b)
+x = eval(input('enter a expression :'))
+print(x)
+
+i = eval(input('enter list :'))
+print(type(i))
+print(i)
+'''
+n = int(input('enter a no '))
+
+for i in range(1,n+1):
+    print('*'*n)
